@@ -1,0 +1,16 @@
+/*Typed with javascript*/
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ff2323;
+  font-family: sans-serif;
+  font-size: 2em;
+}
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+}
