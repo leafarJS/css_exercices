@@ -1,0 +1,54 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #000;
+}
+.list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.list li {
+  list-style: none;
+  color: #262626;
+  font-family: arial, sans-serif;
+  font-size: 5em;
+  letter-spacing: 15px;
+  animation: animate 2s linear infinite;
+}
+@keyframes animate {
+  0% {
+    color: #262626;
+    text-shadow: none;
+  }
+  90% {
+    color: #262626;
+    text-shadow: none;
+  }
+  100% {
+    color: #fff900;
+    text-shadow: 0 0 7px #fff900, 0 0 50px #ff6c00, 0 0 50px #ff0040;
+  }
+}
+.list li:nth-child(1) {
+  animation-delay: 0.4s;
+}
+.list li:nth-child(2) {
+  animation-delay: 0.6s;
+}
+.list li:nth-child(3) {
+  animation-delay: 0.8s;
+}
+.list li:nth-child(4) {
+  animation-delay: 1s;
+}
+.list li:nth-child(5) {
+  animation-delay: 1.2s;
+}
+.list li:nth-child(6) {
+  animation-delay: 1.4s;
+}
